@@ -1,0 +1,45 @@
+
+p{
+    font-size:22px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0 20px;
+}
+
+h1{
+    font-size:50px;
+    text-align:center;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center
+    
+}
+ h2{
+    font-size:40px;
+ }
+
+ 
+ @media screen and (max-width: 790px) {
+    p{
+        font-size:15px ;
+    }
+
+    h1,h2{
+        font-size:30px ;
+    }
+ }
+
+@media screen and (max-width: 590px) {
+
+    p{
+        font-size:3vmin ;
+    }
+
+    h1,h2{
+        font-size:6vmin ;
+    }
+
+    #imag {
+        display: none;
+    }
+}

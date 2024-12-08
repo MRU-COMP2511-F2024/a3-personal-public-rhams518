@@ -1,0 +1,53 @@
+
+
+
+ul {
+    margin: 0 auto; 
+    text-align: left; 
+    width: fit-content; 
+    list-style-position: inside; /
+}
+li{
+    font-size: larger;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 790px) {
+    img{
+        width:100%;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+
+
+    body {
+        font-size: 90%; 
+    }
+
+    h1 {
+        font-size: 9vmin;
+    }
+    h2 {
+        font-size: 6vmin;
+    }
+    h5 {
+        font-size: 5vmin;
+    }
+
+    li{
+        font-size: 4vmin;
+    }
+
+    figcaption{
+        font-size: 4vmin;
+    }
+    
+
+    
+    
+
+    
+}

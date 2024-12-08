@@ -1,0 +1,50 @@
+
+
+.image-column{
+    float:left;
+    width:35%;
+    overflow: auto;
+    max-height: 100vh;
+    
+    
+}
+
+.text-column{
+    float:right;
+}
+
+.image-item, video{
+    border-style: solid;
+    border-color:#535E79 ;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: larger;
+    
+}
+
+h1{
+    text-align:center;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center
+    
+}
+@media screen and (max-width: 790px) {
+    .image-column{
+
+        width:50%;
+    }
+}
+
+
+@media screen and (max-width: 590px) {
+    .image-item, video{
+        display:none;
+    }
+
+    p{
+        font-size:4vmin ;
+    }
+}

@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #afa0cb;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    border-bottom-style:double;
+    font-size: 25px;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 10px; 
+    
+    
+
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    right:0;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    
+    
+}
+.navbar img{
+    width: 250px;
+    height: 50px;
+    float:left;
+
+}
+
+.navbar div{
+    display: inline-block;
+    width: 600px;
+}
+.navbar a.active {
+    color: rgb(45, 62, 101);; 
+    font-weight: bold; 
+}
+
+ a.hover{
+    text-emphasis-color: yellow;
+    font-size: 18px;
+ }
+.navbar img{
+    background-color:#afa0cb;
+
+}
+
+#skip{
+    position:absolute;
+    top:-10000px;
+    width:1px;
+    height:1px;
+}
+
+#skip a:focus{
+    top:0px;
+    width:auto;
+    height:auto;
+    background-color: white;
+}
+
+body {
+
+
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    background-color: #eeedf3; 
+    
+}
+
+a:link {
+    color: rgb(26, 37, 40);
+}
+
+a:visited {
+    color: rgb(33, 32, 35); 
+}
+
+footer{
+    background-color: #afa0cb;
+}
+
+
+.hamburger{
+    display:none;
+}
+
+@media screen and (max-width: 790px) {
+    .navbar{
+        font-size: 20px;
+    }
+
+    #logo{
+        width: 150px;
+        height:30px;
+    }
+}
+
+
+@media screen and (max-width: 590px) {
+    .navlink {
+  
+        display: none;
+        flex-direction: column; 
+        background-color: #333;
+        position: absolute;
+        top: 50px; 
+        right: 10px;
+        width: 150px; 
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #logo{
+        display:none;
+    }
+    .navlink.show {
+        display: flex; 
+    }
+
+    .hamburger {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        color: black;
+        cursor: pointer;
+    }
+
+    #socialmedialinks img{
+        height:40px;
+        width:auto;
+    }
+}
